@@ -23,8 +23,18 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ДокументПродажи.Form.DocumentForm</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="22b1e7f2-e163-4dd3-a3df-f4b2b41f6e72">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="0bac0c7c-866e-4587-a443-2b5d96d87020">
     <producedTypes>
       <objectType typeId="5fd5f193-39b2-425e-b6e2-0c9f30c58e01" valueTypeId="27b82be7-00fc-4aec-9c63-b726a56e68f4"/>
@@ -35,6 +45,7 @@
       <key>en</key>
       <value>Товары</value>
     </synonym>
+    <fillChecking>ShowError</fillChecking>
     <attributes uuid="2aa2635c-1769-44e5-82e8-76fe2161ab13">
       <name>Товар</name>
       <synonym>
@@ -46,6 +57,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
